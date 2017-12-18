@@ -15,7 +15,7 @@ This script _does not require_ Amazon credentials saved locally in `~/.aws/crede
 Add the following lines to your configuration file _or_ pass `--script-security 2 --up /path/to/your/script` when connecting (I recommend using the config file, especially if sharing your VPN):
 ```
 script-security 2
-client-connect python /path/to/app.py $common_name
+client-connect /path/to/app.sh $common_name
 ```
 
 ### Installation
