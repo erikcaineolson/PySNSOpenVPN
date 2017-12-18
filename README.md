@@ -5,9 +5,9 @@ This script assumes you have already set up SNS, IAM, and your OpenVPN server
 
 ### Requirements
 1. Python 3.6+
-1. OpenVPN
-1. Amazon AWS Account
-1. Amazon Python SDK (Boto3)
+2. OpenVPN
+3. Amazon AWS Account
+4. Amazon Python SDK (Boto3)
 
 This script _does not require_ Amazon credentials saved locally in `~/.aws/credentials` or the default region in `/.aws/config`, although you can use them if you prefer
 
